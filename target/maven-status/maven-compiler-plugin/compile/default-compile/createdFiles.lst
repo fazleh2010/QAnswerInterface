@@ -1,0 +1,12 @@
+com/demo/lucene/file/LuceneReadIndexFromFileExample.class
+com/demo/lucene/document/ReadIndex.class
+Main/Main.class
+com/demo/lucene/file/LuceneWriteIndexFromFileExample.class
+com/demo/lucene/document/WriteIndex.class
+com/demo/lucene/highlight/LuceneSearchHighlighterExample.class
+com/howtodoinjava/uio/CsvFile.class
+com/demo/lucene/file/LuceneWriteIndexFromFileExample$1.class
+com/demo/lucene/document/Constants.class
+com/demo/lucene/document/SuggestionData.class
+com/demo/lucene/document/Calculation.class
+com/howtodoinjava/uio/CsvConstants.class

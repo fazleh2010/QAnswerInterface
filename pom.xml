@@ -1,0 +1,129 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>com.howtodoinjava.demo</groupId>
+	<artifactId>LuceneExamples</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>jar</packaging>
+
+	<name>QAInterface</name>
+	<url>http://maven.apache.org</url>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<java.version>1.8</java.version>
+		<lucene.version>6.6.0</lucene.version>
+	</properties>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.1</version>
+				<configuration>
+					<source>${java.version}</source>
+					<target>${java.version}</target>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.apache.lucene</groupId>
+			<artifactId>lucene-core</artifactId>
+			<version>${lucene.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.lucene</groupId>
+			<artifactId>lucene-analyzers-common</artifactId>
+			<version>${lucene.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.lucene</groupId>
+			<artifactId>lucene-queryparser</artifactId>
+			<version>${lucene.version}</version>
+		</dependency>
+		<!-- To include highlight support -->
+		<dependency>
+			<groupId>org.apache.lucene</groupId>
+			<artifactId>lucene-highlighter</artifactId>
+			<version>${lucene.version}</version>
+		</dependency>
+                
+                <!-- https://mvnrepository.com/artifact/org.apache.sling/org.apache.sling.api -->
+                <dependency>
+                    <groupId>org.apache.sling</groupId>
+                    <artifactId>org.apache.sling.api</artifactId>
+                    <version>2.24.0</version>
+                    <scope>provided</scope>
+                </dependency>
+                
+                <!-- https://mvnrepository.com/artifact/org.json/json -->
+                <dependency>
+                    <groupId>org.json</groupId>
+                    <artifactId>json</artifactId>
+                    <version>20220320</version>
+                </dependency>
+                
+                <!-- https://mvnrepository.com/artifact/org.osgi/org.osgi.service.component.annotations -->
+                <dependency>
+                    <groupId>org.osgi</groupId>
+                    <artifactId>org.osgi.service.component.annotations</artifactId>
+                    <version>1.5.0</version>
+                    <scope>provided</scope>
+                </dependency>
+                
+                <!-- https://mvnrepository.com/artifact/org.osgi/org.osgi.framework -->
+                <dependency>
+                    <groupId>org.osgi</groupId>
+                    <artifactId>org.osgi.framework</artifactId>
+                    <version>1.9.0</version>
+                    <scope>provided</scope>
+                </dependency>
+                
+                <!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-api -->
+                <dependency>
+                    <groupId>org.slf4j</groupId>
+                    <artifactId>slf4j-api</artifactId>
+                    <version>2.0.0-alpha6</version>
+                </dependency>
+
+                <!-- https://mvnrepository.com/artifact/javax.jcr/jcr -->
+                <dependency>
+                    <groupId>javax.jcr</groupId>
+                    <artifactId>jcr</artifactId>
+                    <version>2.0</version>
+                    <scope>provided</scope>
+                </dependency>
+
+                <!-- https://mvnrepository.com/artifact/javax.servlet/servlet-api -->
+                <dependency>
+                    <groupId>javax.servlet</groupId>
+                    <artifactId>servlet-api</artifactId>
+                    <version>2.5</version>
+                    <scope>provided</scope>
+                </dependency>
+
+                <dependency>
+                    <groupId>com.opencsv</groupId>
+                    <artifactId>opencsv</artifactId>
+                    <version>5.1</version>
+                </dependency>
+
+                <!-- https://mvnrepository.com/artifact/junit/junit -->
+                <dependency>
+                    <groupId>junit</groupId>
+                    <artifactId>junit</artifactId>
+                    <version>4.4</version>
+                    <scope>test</scope>
+                </dependency>
+
+
+
+
+                
+	</dependencies>
+</project>
