@@ -1,5 +1,7 @@
-package com.demo.lucene.document;
+package core.read;
 
+import core.constants.Constants;
+import uio.CsvFile;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
@@ -43,14 +45,15 @@ public class ReadIndex implements Constants{
             Document d = searcher.doc(sd.doc);
             System.out.println(String.format(d.get("firstName")));
         }*/
+        System.out.println("!!!!!!!!!!!find results!!!!!!!!!!!!!!!!! :: ");
+
         //Search by firstName
         TopDocs foundDocs2 = searchByFirstName(searchText, searcher);
 
-      
 
         for (ScoreDoc sd : foundDocs2.scoreDocs) {
             Document d = searcher.doc(sd.doc);
-            System.out.println(String.format(d.get(field)));
+            System.out.println("result:"+String.format(d.get(field)));
         }
           System.out.println("Toral Results :: " + foundDocs2.totalHits);
     }

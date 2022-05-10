@@ -1,4 +1,4 @@
-package com.demo.lucene.file;
+package core.file;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -26,7 +26,7 @@ import org.apache.lucene.store.FSDirectory;
  
 public class LuceneWriteIndexFromFileExample 
 {
-    public static void main(String[] args)
+    /*public static void main(String[] args)
     {
         //Input folder
         String docsPath = "inputFiles";
@@ -61,7 +61,7 @@ public class LuceneWriteIndexFromFileExample
         {
             e.printStackTrace();
         }
-    }
+    }*/
      
     static void indexDocs(final IndexWriter writer, Path path) throws IOException 
     {

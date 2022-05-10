@@ -1,5 +1,7 @@
-package com.demo.lucene.document;
+package core.file;
 
+import core.constants.Constants;
+import uio.CsvFile;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
@@ -11,9 +13,9 @@ import java.io.IOException;
 public class Calculation implements Constants{
 
    
-    public static void main(String[] args) throws Exception {
+    /*public static void main(String[] args) throws Exception {
         FolderFileCount(CSV_DIR);
-    }
+    }*/
 
 
 

@@ -1,6 +1,6 @@
 package com.demo.lucene;
 
-import com.demo.lucene.document.Constants;
+import core.constants.Constants;
 import java.io.IOException;
 import java.nio.file.Paths;
 import java.util.ArrayList;

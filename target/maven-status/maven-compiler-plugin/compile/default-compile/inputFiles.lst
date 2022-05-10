@@ -1,11 +1,19 @@
-/home/elahi/AHack/LuceneExamples/src/main/java/com/demo/lucene/document/SuggestionData.java
-/home/elahi/AHack/LuceneExamples/src/main/java/com/demo/lucene/document/Constants.java
-/home/elahi/AHack/LuceneExamples/src/main/java/com/demo/lucene/highlight/LuceneSearchHighlighterExample.java
-/home/elahi/AHack/LuceneExamples/src/main/java/com/howtodoinjava/uio/CsvConstants.java
-/home/elahi/AHack/LuceneExamples/src/main/java/com/demo/lucene/file/LuceneReadIndexFromFileExample.java
-/home/elahi/AHack/LuceneExamples/src/main/java/com/demo/lucene/document/Calculation.java
-/home/elahi/AHack/LuceneExamples/src/main/java/com/howtodoinjava/uio/CsvFile.java
-/home/elahi/AHack/LuceneExamples/src/main/java/Main/Main.java
-/home/elahi/AHack/LuceneExamples/src/main/java/com/demo/lucene/document/WriteIndex.java
-/home/elahi/AHack/LuceneExamples/src/main/java/com/demo/lucene/document/ReadIndex.java
-/home/elahi/AHack/LuceneExamples/src/main/java/com/demo/lucene/file/LuceneWriteIndexFromFileExample.java
+/media/elahi/My Passport/lucene/QAInterface/src/main/java/com/demo/lucene/highlight/LuceneSearchHighlighterExample.java
+/media/elahi/My Passport/lucene/QAInterface/src/main/java/com/demo/lucene/document/WriteIndex.java
+/media/elahi/My Passport/lucene/QAInterface/src/main/java/core/write/WriteIndex.java
+/media/elahi/My Passport/lucene/QAInterface/src/main/java/Main.java
+/media/elahi/My Passport/lucene/QAInterface/src/main/java/com/demo/lucene/document/Calculation.java
+/media/elahi/My Passport/lucene/QAInterface/src/main/java/core/highlight/LuceneSearchHighlighterExample.java
+/media/elahi/My Passport/lucene/QAInterface/src/main/java/com/demo/lucene/file/LuceneReadIndexFromFileExample.java
+/media/elahi/My Passport/lucene/QAInterface/src/main/java/com/demo/lucene/document/SuggestionData.java
+/media/elahi/My Passport/lucene/QAInterface/src/main/java/core/file/Calculation.java
+/media/elahi/My Passport/lucene/QAInterface/src/main/java/core/read/ReadIndex.java
+/media/elahi/My Passport/lucene/QAInterface/src/main/java/uio/CsvFile.java
+/media/elahi/My Passport/lucene/QAInterface/src/main/java/com/demo/lucene/document/ReadIndex.java
+/media/elahi/My Passport/lucene/QAInterface/src/main/java/core/constants/Constants.java
+/media/elahi/My Passport/lucene/QAInterface/src/main/java/com/demo/lucene/file/LuceneWriteIndexFromFileExample.java
+/media/elahi/My Passport/lucene/QAInterface/src/main/java/core/file/LuceneReadIndexFromFileExample.java
+/media/elahi/My Passport/lucene/QAInterface/src/main/java/uio/CsvConstants.java
+/media/elahi/My Passport/lucene/QAInterface/src/main/java/core/suggester/SuggestionData.java
+/media/elahi/My Passport/lucene/QAInterface/src/main/java/com/demo/lucene/document/Constants.java
+/media/elahi/My Passport/lucene/QAInterface/src/main/java/core/file/LuceneWriteIndexFromFileExample.java

@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.howtodoinjava.uio;
+package uio;
 
 import com.opencsv.CSVReader;
 import com.opencsv.CSVWriter;
@@ -299,10 +299,10 @@ public class CsvFile implements CsvConstants {
 
     
 
-    public static void main(String[] args) throws FileNotFoundException, IOException {
+   /* public static void main(String[] args) throws FileNotFoundException, IOException {
         String fileLocation = resources + xslDir + nounDir;
 
-    }
+    }*/
 
     private boolean isClassMatched(String className, String givenClassName) {
         className = className.toLowerCase().trim().strip().stripLeading().stripTrailing().replace(" ", "_");

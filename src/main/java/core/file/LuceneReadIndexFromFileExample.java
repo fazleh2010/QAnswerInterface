@@ -1,4 +1,4 @@
-package com.demo.lucene.file;
+package core.file;
 import java.io.IOException;
 import java.nio.file.Paths;
  
@@ -19,7 +19,7 @@ public class LuceneReadIndexFromFileExample
     //directory contains the lucene indexes
     private static final String INDEX_DIR = "indexedFiles";
  
-    public static void main(String[] args) throws Exception 
+    /*public static void main(String[] args) throws Exception 
     {
         //Create lucene searcher. It search over a single IndexReader.
         IndexSearcher searcher = createSearcher();
@@ -36,7 +36,7 @@ public class LuceneReadIndexFromFileExample
             Document d = searcher.doc(sd.doc);
             System.out.println("Path : "+ d.get("path") + ", Score : " + sd.score);
         }
-    }
+    }*/
      
     private static TopDocs searchInContent(String textToFind, IndexSearcher searcher) throws Exception
     {

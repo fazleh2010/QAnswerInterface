@@ -1,4 +1,4 @@
-package com.demo.lucene.highlight;
+package core.highlight;
 
 import java.nio.file.Paths;
 
@@ -27,7 +27,7 @@ public class LuceneSearchHighlighterExample
     //This contains the lucene indexed documents
     private static final String INDEX_DIR = "indexedFiles";
  
-    public static void main(String[] args) throws Exception 
+    /*public static void main(String[] args) throws Exception 
     {
         //Get directory reference
         Directory dir = FSDirectory.open(Paths.get(INDEX_DIR));
@@ -50,7 +50,6 @@ public class LuceneSearchHighlighterExample
         //Search the lucene documents
         TopDocs hits = searcher.search(query, 10);
          
-        /** Highlighter Code Start ****/
          
         //Uses HTML &lt;B&gt;&lt;/B&gt; tag to highlight the searched terms
         Formatter formatter = new SimpleHTMLFormatter();
@@ -96,5 +95,5 @@ public class LuceneSearchHighlighterExample
             }
         }
         dir.close();
-    }
+    }*/
 }
