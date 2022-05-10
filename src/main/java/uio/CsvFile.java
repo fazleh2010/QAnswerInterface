@@ -109,6 +109,7 @@ public class CsvFile implements CsvConstants {
         Stack<String> stack = new Stack<String>();
         CSVReader reader;
         try {
+            System.out.println(qaldFile.getName()+" "+lineLimit);
             rows = generateLinebyLine(qaldFile, lineLimit);
         } catch (IOException ex) {
             Logger.getLogger(CsvFile.class.getName()).log(Level.SEVERE, null, ex);

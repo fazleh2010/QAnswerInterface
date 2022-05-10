@@ -41,7 +41,7 @@ public class WriteIndex implements Constants{
     
    
 
-    public static void writeIndex(String CSV_DIR, String INDEX_DIR, Boolean testFlag) throws Exception {
+    public static void writeIndex(String CSV_DIR, String INDEX_DIR, Boolean testFlag,Integer rowLimit) throws Exception {
         File folder = new File(CSV_DIR);
         File[] listOfFiles = folder.listFiles();
         IndexWriter writer = createWriter(INDEX_DIR);
@@ -55,7 +55,7 @@ public class WriteIndex implements Constants{
                 CsvFile csvFile = new CsvFile();
                 String fileName = CSV_DIR + file.getName();
                 //List<String[]> rows = csvFile.getRows(new File(fileName));
-                List<String[]> rows = csvFile.getManualRow(new File(fileName), 1000000000);
+                List<String[]> rows = csvFile.getManualRow(new File(fileName), rowLimit);
                 //long lines = countLineOfFile(fileName);
                 //System.out.println(file.getName() + lines);
                 for (String[] row : rows) {

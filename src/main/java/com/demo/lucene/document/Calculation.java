@@ -38,15 +38,14 @@ public class Calculation implements Constants{
         long sum = 0;
         for (File file : listOfFiles) {
             if (file.isFile()) {
-                System.out.println(file.getName());
                 long lines = countLineOfFile(CSV_DIR + file.getName());
-                System.out.println(file.getName() + lines);
+                System.out.println(file.getName()+"::" + lines);
                 sum += lines;
             }
 
         }
 
-        System.out.println(sum);
+        System.out.println("total::"+sum);
     }
 
 }

@@ -11,12 +11,13 @@ package core.constants;
  */
 public interface Constants {
 
-    public static final String INDEX_DIR = "../resources/index/";
+    public static final String INDEX_DIR = "../resources/en/index/";
     public static final String CSV_DIR = "../resources/en/questions/";
     public static final String WRITE = "WRITE";
     public static final String READ = "READ";
 
     public static final Integer Limit=500;
-    public static final Integer batchSize=5000000;
+    public static final Integer batchSize=100000;
+    public static final Integer rowLimit=100000;
 
 }

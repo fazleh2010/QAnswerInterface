@@ -28,10 +28,10 @@ public class Main implements  Constants{
         //FolderFileCount(CSV_DIR);
         
         menu.add(WRITE);
-        menu.add(READ);
+        //menu.add(READ);
         
         if(menu.contains(WRITE))
-           WriteIndex.writeIndex(CSV_DIR,INDEX_DIR,testFlag);
+           WriteIndex.writeIndex(CSV_DIR,INDEX_DIR,testFlag,rowLimit);
         if(menu.contains(READ))
           ReadIndex.readIndex("firstName", "Where");
     }
